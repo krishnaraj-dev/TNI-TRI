@@ -1,0 +1,113 @@
+{
+  "title": "How TNI²TRI Works",
+  "eyebrow": "PAGE 03 — HOW IT WORKS",
+  "subtitle": "A Continuous Industrial Transformation Lifecycle",
+  "description": "TNI²TRI follows a structured but adaptive lifecycle that guides organizations systematically from initial situational intelligence to continuous institutional renewal.",
+  "lifecycle": [
+    {
+      "step": "01",
+      "name": "Intelligence",
+      "tagline": "Understand the organisation and its environment.",
+      "details": "Establishes holistic macro and micro-environmental context, sector benchmarking, regulatory mandates, technological inflection points, and supply ecosystem parameters.",
+      "category": "Foundation"
+    },
+    {
+      "step": "02",
+      "name": "Assessment",
+      "tagline": "Examine current capability.",
+      "details": "Conducts a comprehensive, adaptive evaluation across the 10 industrial transformation domains using dynamic inquiry tailored to the enterprise context.",
+      "category": "Diagnosis"
+    },
+    {
+      "step": "03",
+      "name": "Evidence",
+      "tagline": "Validate important findings.",
+      "details": "Grounds self-reported operational assessments in objective data, physical audit points, institutional metrics, and verified documentation (C0 to C3 scale).",
+      "category": "Diagnosis"
+    },
+    {
+      "step": "04",
+      "name": "Diagnosis",
+      "tagline": "Understand gaps, causes, risks and dependencies.",
+      "details": "Separates surface symptoms from fundamental structural causes, tracing cross-domain dependencies and quantifying systemic operational risks.",
+      "category": "Diagnosis"
+    },
+    {
+      "step": "05",
+      "name": "Readiness",
+      "tagline": "Determine transformation readiness.",
+      "details": "Scores organizational capacity across 8 strategic readiness pillars (R0–R5 scale), identifying whether the enterprise is ready to execute or requires preparatory conditioning.",
+      "category": "Strategy"
+    },
+    {
+      "step": "06",
+      "name": "Priority",
+      "tagline": "Determine what matters most.",
+      "details": "Filters all identified weaknesses against strategic urgency, feasibility, economic ROI, risk exposure, and sequential dependencies to isolate immediate priorities.",
+      "category": "Strategy"
+    },
+    {
+      "step": "07",
+      "name": "Resource Allocation",
+      "tagline": "Identify what must be made available.",
+      "details": "Defines and mobilizes capital, executive leadership bandwidth, specialized engineering talent, technological tools, and infrastructure required for implementation.",
+      "category": "Mobilization"
+    },
+    {
+      "step": "08",
+      "name": "Planning",
+      "tagline": "Determine sequence, ownership and timing.",
+      "details": "Constructs a synchronized, multi-phase transformation roadmap with unambiguous milestone ownership, dependency chains, and gating checkpoints.",
+      "category": "Mobilization"
+    },
+    {
+      "step": "09",
+      "name": "Transformation",
+      "tagline": "Implement change.",
+      "details": "Executes structural, procedural, technological, and cultural interventions under agile governance, change management protocols, and operational discipline.",
+      "category": "Execution"
+    },
+    {
+      "step": "10",
+      "name": "Impact",
+      "tagline": "Measure results and value.",
+      "details": "Evaluates tangible operational productivity, cost structures, product quality, market velocity, and enterprise balance sheet resilience against baseline metrics.",
+      "category": "Execution"
+    },
+    {
+      "step": "11",
+      "name": "Learning",
+      "tagline": "Capture lessons and new intelligence.",
+      "details": "Extracts operational insights, codifies best practices into institutional repositories, and updates internal standard operating procedures.",
+      "category": "Evolution"
+    },
+    {
+      "step": "12",
+      "name": "Reassessment",
+      "tagline": "Understand the new state.",
+      "details": "Calibrates updated maturity scores, validates new capability baselines, and uncovers newly emergent constraints in the transformed operational environment.",
+      "category": "Evolution"
+    },
+    {
+      "step": "13",
+      "name": "Renewal",
+      "tagline": "Determine what comes next.",
+      "details": "Continuously resets strategic ambition, expands competitive horizons, and primes the organization for the subsequent cycle of industrial innovation.",
+      "category": "Evolution"
+    }
+  ],
+  "operatingPrinciple": {
+    "title": "The Operating Principle",
+    "subtitle": "Requirement → Resource Allocation → Planning → Process",
+    "intro": "Every transformation initiative should answer:",
+    "questions": [
+      { "id": 1, "question": "What is required?", "desc": "Precise articulation of capability gaps and operational mandates." },
+      { "id": 2, "question": "What resources are required?", "desc": "Financial budget, leadership focus, technical competencies, and physical tooling." },
+      { "id": 3, "question": "How should it be planned?", "desc": "Sequencing, milestones, cross-functional dependencies, and risk mitigation." },
+      { "id": 4, "question": "How will the process operate?", "desc": "Daily execution architecture, governance controls, and workflow integration." },
+      { "id": 5, "question": "What performance should result?", "desc": "Quantified metrics, productivity uplifts, and verifiable economic value." },
+      { "id": 6, "question": "What will we learn?", "desc": "Feedback capture, institutional memory, and capability refinement." },
+      { "id": 7, "question": "When should we reassess?", "desc": "Scheduled diagnostic intervals to validate outcomes and initiate renewal." }
+    ]
+  }
+}

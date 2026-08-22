@@ -1,0 +1,321 @@
+{
+  "hero": {
+    "eyebrow": "TNI²TRI 2026",
+    "title": "Know Where You Stand. Know What Must Change. Know What to Do Next.",
+    "description": "TNI²TRI 2026 brings industrial intelligence, transformation-readiness assessment and structured implementation into one continuous framework.\n\nIt helps industries understand their current capabilities, identify critical gaps and dependencies, determine transformation readiness, prioritise what matters most, and establish a practical direction for the next stage of growth and transformation.",
+    "primaryCTA": { "label": "REGISTER & START ASSESSMENT", "href": "/register" },
+    "secondaryCTA": { "label": "EXPLORE TNI²TRI", "href": "/about" },
+    "stats": [
+      { "value": "10", "label": "Transformation Domains", "sub": "Comprehensive capability mapping" },
+      { "value": "3", "label": "Integrated Layers", "sub": "Intelligence → Readiness → Implementation" },
+      { "value": "13", "label": "Lifecycle Stages", "sub": "Continuous evolution architecture" },
+      { "value": "R0–R5", "label": "Readiness Scale", "sub": "Calibrated diagnostic validation" }
+    ]
+  },
+  "highlightWidgets": [
+    {
+      "id": "widget-01",
+      "layer": "TNIIIRBI",
+      "title": "INDUSTRIAL INTELLIGENCE",
+      "headline": "Understand what is happening.",
+      "description": "Industrial intelligence creates the context required to understand the organisation and its environment.",
+      "ctaLabel": "EXPLORE TNIIIRBI →",
+      "href": "/about#tniiirbi",
+      "badge": "Layer 01"
+    },
+    {
+      "id": "widget-02",
+      "layer": "TNITRI",
+      "title": "TRANSFORMATION READINESS",
+      "headline": "Understand where you stand and what you are ready for.",
+      "description": "Assess capability, maturity, gaps, risks, dependencies and transformation readiness.",
+      "ctaLabel": "EXPLORE TNITRI →",
+      "href": "/assessment",
+      "badge": "Layer 02"
+    },
+    {
+      "id": "widget-03",
+      "layer": "TNI²TRI",
+      "title": "TRANSFORMATION",
+      "headline": "Know what to do next.",
+      "description": "Connect intelligence and readiness with priorities, resources, planning, transformation and measurable outcomes.",
+      "ctaLabel": "EXPLORE TNI²TRI →",
+      "href": "/how-it-works",
+      "badge": "Layer 03"
+    }
+  ],
+  "challengeSection": {
+    "heading": "Transformation Should Not Begin With Investment. It Should Begin With Understanding.",
+    "paragraphs": [
+      "Industries today operate within rapidly changing markets, technologies, customer expectations, supply networks, regulations, skills, financial conditions and competitive environments.",
+      "Yet many transformation decisions begin with a solution before the organisation has fully understood the problem.",
+      "TNI²TRI changes that sequence."
+    ],
+    "contrast": {
+      "oldWay": {
+        "title": "The Conventional Mistake",
+        "question": "What technology should we buy?"
+      },
+      "newWay": {
+        "title": "The TNI²TRI Approach",
+        "primaryQuestion": "What does the organisation actually need?",
+        "followUpQuestions": [
+          "What is preventing it?",
+          "What must be prepared first?",
+          "What resources are required?",
+          "What should happen next?"
+        ]
+      }
+    },
+    "highlightStatement": "Understand before you transform. Transform with direction. Learn and evolve continuously."
+  },
+  "systemSection": {
+    "title": "Three Connected Layers. One Transformation Journey.",
+    "subtitle": "INTELLIGENCE → READINESS → TRANSFORMATION",
+    "ctaLabel": "EXPLORE THE THREE-LAYER SYSTEM →",
+    "ctaHref": "/about#system",
+    "layers": [
+      {
+        "code": "TNIIIRBI",
+        "title": "Industrial Intelligence",
+        "question": "What is happening?",
+        "desc": "Establishes holistic situational context, macro/sectoral trends, supply dynamics, and market benchmarks."
+      },
+      {
+        "code": "TNITRI",
+        "title": "Transformation Readiness Intelligence",
+        "question": "Where are we now, and what are we ready for?",
+        "desc": "Evaluates organizational capabilities across 10 domains, surfacing verified evidence, gaps, and readiness ratings."
+      },
+      {
+        "code": "TNI²TRI",
+        "title": "Transformation Intelligence & Implementation",
+        "question": "What should we do next, and how should we transform?",
+        "desc": "Synthesizes diagnostic insights into prioritized action roadmaps, resource allocation, and continuous measurement loops."
+      }
+    ]
+  },
+  "domainsSection": {
+    "title": "See the Organisation as a Whole",
+    "description": "TNI²TRI examines the interconnected capabilities that influence industrial performance and transformation readiness.",
+    "ctaLabel": "EXPLORE THE 10 DOMAINS →",
+    "ctaHref": "/domains",
+    "domains": [
+      { "id": "01", "name": "Industrial Capability", "question": "Can we execute?" },
+      { "id": "02", "name": "Technology & Digital", "question": "Can technology enable us?" },
+      { "id": "03", "name": "Organisation & Operating Model", "question": "Can we coordinate ourselves?" },
+      { "id": "04", "name": "People & Skills", "question": "Can our people perform and evolve?" },
+      { "id": "05", "name": "Innovation & Product Development", "question": "Can we create what comes next?" },
+      { "id": "06", "name": "Market & Competitiveness", "question": "Are we creating relevant value for the market?" },
+      { "id": "07", "name": "Supply Chain & Value Network", "question": "Can we reliably access and deliver what is required?" },
+      { "id": "08", "name": "Financial & Economic Capability", "question": "Can the business economically sustain and fund itself?" },
+      { "id": "09", "name": "Governance, Risk & Resilience", "question": "Can we remain protected, responsible and resilient?" },
+      { "id": "10", "name": "Leadership, Culture & Transformation", "question": "Can we deliberately evolve ourselves?" }
+    ]
+  },
+  "adaptiveAssessmentWidget": {
+    "title": "Not a Long Questionnaire.",
+    "subtitle": "An Adaptive Diagnostic Process.",
+    "description": "TNI²TRI does not require every organisation to answer the same long questionnaire. The assessment progressively adapts according to the organisation's context and responses.",
+    "flow": [
+      { "step": "01", "label": "QUESTION" },
+      { "step": "02", "label": "RESPONSE" },
+      { "step": "03", "label": "CLASSIFICATION" },
+      { "step": "04", "label": "EVIDENCE" },
+      { "step": "05", "label": "DEEPER ASSESSMENT" }
+    ],
+    "highlight": "The objective is not to ask more questions. The objective is to ask the right questions.",
+    "ctaLabel": "HOW THE ASSESSMENT WORKS →",
+    "ctaHref": "/assessment"
+  },
+  "evidenceWidget": {
+    "title": "From Answers to Evidence-Based Understanding",
+    "description": "TNI²TRI distinguishes between what an organisation reports and what available evidence demonstrates.",
+    "levels": [
+      {
+        "code": "C0",
+        "title": "Unverified",
+        "desc": "Self-reported information without sufficient supporting evidence."
+      },
+      {
+        "code": "C1",
+        "title": "Supported",
+        "desc": "Some supporting information is available."
+      },
+      {
+        "code": "C2",
+        "title": "Corroborated",
+        "desc": "Multiple sources or evidence support the finding."
+      },
+      {
+        "code": "C3",
+        "title": "Verified",
+        "desc": "Strong evidence confirms the finding."
+      }
+    ],
+    "ctaLabel": "EXPLORE EVIDENCE & VALIDATION →",
+    "ctaHref": "/assessment#evidence"
+  },
+  "diagnosisSection": {
+    "title": "A Weakness Is Not Yet a Diagnosis",
+    "description": "TNI²TRI goes beyond identifying a low score.",
+    "flow": [
+      { "step": "Condition", "desc": "Current observable operational state" },
+      { "step": "Gap", "desc": "Distance between actual performance and standard" },
+      { "step": "Root Cause", "desc": "Underlying structural or systemic origin" },
+      { "step": "Dependency", "desc": "Cross-domain prerequisites and linked constraints" },
+      { "step": "Impact", "desc": "Quantified risk to enterprise output and scale" },
+      { "step": "Transformation Implication", "desc": "Exact intervention sequence required" }
+    ],
+    "highlightStatement": "We do not stop at identifying what is wrong. We seek to understand why it is happening and what should happen next."
+  },
+  "readinessSection": {
+    "title": "Are You Ready to Transform?",
+    "subtitle": "Transformation readiness is not simply: Ready / Not Ready",
+    "dimensions": [
+      "Strategy",
+      "Organisation",
+      "Capability",
+      "Technology",
+      "People",
+      "Finance",
+      "Resources",
+      "Risk",
+      "Leadership"
+    ],
+    "scale": [
+      { "code": "R0", "label": "Not Ready", "desc": "Absence of prerequisite clarity, governance or basic resources." },
+      { "code": "R1", "label": "Aware", "desc": "Recognition of transformation need, but initial planning unformed." },
+      { "code": "R2", "label": "Preparing", "desc": "Structuring requirements, resources, and baseline alignments." },
+      { "code": "R3", "label": "Ready", "desc": "Capabilities and resources mobilized for phased execution." },
+      { "code": "R4", "label": "Transformation Ready", "desc": "Mature alignment, validated evidence, and agile change control." },
+      { "code": "R5", "label": "Transformation Capable", "desc": "Institutionalized agility, continuous learning, and self-renewal." }
+    ],
+    "ctaLabel": "UNDERSTAND READINESS →",
+    "ctaHref": "/assessment#readiness"
+  },
+  "prioritySection": {
+    "title": "Not Everything Needs to Change at Once.",
+    "description": "TNI²TRI helps distinguish: What is weak from What matters most right now.",
+    "considerations": [
+      "Maturity",
+      "Effectiveness",
+      "Impact",
+      "Urgency",
+      "Risk",
+      "Strategic importance",
+      "Dependencies",
+      "Resource feasibility"
+    ],
+    "highlight": "Know what to do first."
+  },
+  "transformationLogicWidget": {
+    "title": "Transformation Logic",
+    "subtitle": "Requirement → Resource Allocation → Planning → Process",
+    "chain": [
+      { "stage": "Requirement", "question": "What is actually needed?" },
+      { "stage": "Resource Allocation", "question": "What must be made available?" },
+      { "stage": "Planning", "question": "How should it be achieved?" },
+      { "stage": "Process", "question": "How will the new capability operate?" },
+      { "stage": "Performance", "question": "What actually happened?" },
+      { "stage": "Learning", "question": "What have we learned?" },
+      { "stage": "Reassessment", "question": "What should happen now?" }
+    ]
+  },
+  "transformationControlSection": {
+    "title": "Know When to Continue. Know When to Stop.",
+    "subtitle": "Transformation requires decision discipline.",
+    "decisions": [
+      { "name": "CONTINUE", "desc": "Evidence supports progression." },
+      { "name": "MODIFY", "desc": "The direction remains valid, but the approach needs adjustment." },
+      { "name": "PAUSE", "desc": "Conditions require temporary suspension." },
+      { "name": "STOP", "desc": "Evidence no longer supports continuation." },
+      { "name": "RESET", "desc": "The underlying assumptions need to be reconsidered." },
+      { "name": "RESTART", "desc": "A revised approach is ready." }
+    ]
+  },
+  "outcomesSection": {
+    "title": "More Than a Score",
+    "subtitle": "TNI²TRI can provide a structured view of:",
+    "items": [
+      "Current State",
+      "Capability Profile",
+      "Maturity Profile",
+      "Evidence Confidence",
+      "Risk Profile",
+      "Gap Analysis",
+      "Root-Cause Analysis",
+      "Dependency Map",
+      "Readiness Profile",
+      "Priority Map",
+      "Resource Requirements",
+      "Transformation Direction",
+      "Measurement Direction",
+      "Reassessment Direction"
+    ],
+    "highlightCTA": "Know What to Do Next.",
+    "ctaLabel": "EXPLORE ASSESSMENT OUTCOMES →",
+    "ctaHref": "/outcomes"
+  },
+  "continuousTransformationSection": {
+    "title": "Assessment Is the Beginning, Not the End.",
+    "loop": "MEASURE → LEARN → REASSESS → UNDERSTAND → PRIORITISE → TRANSFORM AGAIN",
+    "coreStatement": "The goal is not to become \"finished.\" The goal is to become increasingly capable of evolving."
+  },
+  "whyParticipateSection": {
+    "title": "Why Should Your Industry Participate?",
+    "intro": "TNI²TRI can help your organisation:",
+    "benefits": [
+      "Understand its current state more clearly",
+      "Identify critical capability gaps",
+      "Separate symptoms from root causes",
+      "Understand cross-functional dependencies",
+      "Identify hidden constraints",
+      "Recognise transformation risks",
+      "Determine readiness for change",
+      "Prioritise transformation requirements",
+      "Understand resource implications",
+      "Reduce fragmented transformation decisions",
+      "Establish a structured transformation direction",
+      "Create a basis for measurable improvement",
+      "Build the habit of continuous reassessment"
+    ],
+    "highlight": "Make better transformation decisions before committing significant resources to them."
+  },
+  "whoShouldParticipateSection": {
+    "title": "Designed for Industries That Want to Understand and Evolve",
+    "relevanceIntro": "TNI²TRI is relevant to organisations that are:",
+    "contexts": [
+      "Growing",
+      "Scaling",
+      "Modernising",
+      "Digitalising",
+      "Automating",
+      "Diversifying",
+      "Entering New Markets",
+      "Developing New Products",
+      "Improving Performance",
+      "Strengthening Resilience",
+      "Preparing for Future Competition",
+      "Building Institutional Capability",
+      "Planning Transformation"
+    ],
+    "leadersIntro": "Particularly Relevant For",
+    "leaders": [
+      "Founders",
+      "Promoters",
+      "CEOs",
+      "Directors",
+      "Business Leaders",
+      "Industrial Leaders",
+      "Transformation Leaders",
+      "Senior Management Teams"
+    ]
+  },
+  "finalCTA": {
+    "title": "Ready to Understand Where You Stand?",
+    "subtitle": "Begin your TNI²TRI 2026 journey.",
+    "primaryCTA": { "label": "REGISTER & START ASSESSMENT", "href": "/register" },
+    "secondaryCTA": { "label": "CONTACT THE TNI²TRI TEAM", "href": "/contact" }
+  }
+}

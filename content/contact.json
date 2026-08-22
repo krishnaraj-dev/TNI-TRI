@@ -1,0 +1,40 @@
+{
+  "title": "Let's Begin the Conversation",
+  "eyebrow": "PAGE 10 — CONTACT",
+  "subtitle": "Have questions about TNI²TRI 2026, the assessment process or participation?",
+  "intro": "Contact the TNI²TRI team to discuss enterprise onboarding, regional cluster engagements, technical inquiries, or institutional collaboration.",
+  "brandSummary": {
+    "name": "TNI²TRI 2026",
+    "tagline": "Tamil Nadu Industrial Intelligence → Transformation Readiness & Implementation"
+  },
+  "contactDetails": {
+    "email": "mail@brandingbuddha.in",
+    "officialEmail": "support@tni2tri2026.tn.gov.in",
+    "phone": "+91 9952996930",
+    "location": "Tamil Nadu, India",
+    "workingHours": "Monday to Friday, 9:00 AM – 6:00 PM IST"
+  },
+  "enquiryTypes": [
+    { "id": "general", "label": "General Enquiry", "desc": "Questions regarding TNI²TRI mission, publications, or partnerships." },
+    { "id": "assessment", "label": "Assessment Enquiry", "desc": "Questions regarding enterprise registration, diagnostic methodology, or timelines." },
+    { "id": "enterprise", "label": "Enterprise / Cluster Consultation", "desc": "Custom diagnostic scoping for industrial conglomerates or multi-plant clusters." }
+  ],
+  "faq": [
+    {
+      "q": "What is the primary objective of TNI²TRI 2026?",
+      "a": "TNI²TRI creates a unified, evidence-based diagnostic framework connecting industrial intelligence, transformation readiness, and structured implementation across 10 critical organizational domains."
+    },
+    {
+      "q": "How is this different from generic maturity surveys?",
+      "a": "TNI²TRI is an adaptive diagnostic process rather than a static questionnaire. It uses evidence grading (C0–C3), isolates root causes from surface symptoms, evaluates 8 readiness dimensions (R0–R5), and generates 13 actionable enterprise deliverables."
+    },
+    {
+      "q": "What is required during the initial registration?",
+      "a": "The initial registration gathers essential organizational profiles, scale parameters, transformation context, and primary leadership inquiries. A dedicated diagnostic coordinator will then initiate the phased assessment."
+    },
+    {
+      "q": "Who in the organisation should lead the assessment?",
+      "a": "The assessment is typically sponsored by CEOs, Managing Directors, Promoters, or Transformation Heads, with input coordinated across cross-functional leaders in operations, finance, technology, and HR."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "title": "Participate in TNI²TRI 2026",
+  "eyebrow": "PAGE 07 — PARTICIPATE",
+  "subtitle": "Designed for Industries That Want to Understand and Evolve",
+  "whoShouldParticipate": {
+    "title": "Who Should Participate?",
+    "intro": "TNI²TRI is designed for organisations that want to:",
+    "goals": [
+      { "label": "Grow", "desc": "Expand capacity, customer base, and revenue streams sustainably." },
+      { "label": "Scale", "desc": "Multiply operational throughput without proportional overhead costs." },
+      { "label": "Modernise", "desc": "Upgrade manufacturing equipment, workflows, and physical plant architectures." },
+      { "label": "Digitalise", "desc": "Deploy enterprise data pipelines, digital interfaces, and connected systems." },
+      { "label": "Automate", "desc": "Implement robotics, shop-floor automation, and automated quality checks." },
+      { "label": "Innovate", "desc": "Develop next-generation product lines, services, and proprietary IP." },
+      { "label": "Expand markets", "desc": "Enter new geographical territories, export markets, and tier-1 customer networks." },
+      { "label": "Improve productivity", "desc": "Eliminate shopfloor waste, minimize cycle time, and enhance OEE." },
+      { "label": "Strengthen resilience", "desc": "Fortify supply chains, financial liquidity, and business continuity safeguards." },
+      { "label": "Build organisational capability", "desc": "Cultivate high-caliber engineering, managerial, and operational talent." },
+      { "label": "Prepare for future competition", "desc": "Anticipate market disruption, green energy transitions, and industry standards." },
+      { "label": "Undertake structured transformation", "desc": "Execute complex organizational change with precision and verified governance." }
+    ],
+    "targetAudience": {
+      "title": "Particularly Relevant For",
+      "roles": [
+        { "title": "Founders & Promoters", "desc": "Seeking to build enduring institutional value and legacy industrial strength." },
+        { "title": "CEOs & Managing Directors", "desc": "Driving enterprise growth, strategic pivots, and multi-year transformation agendas." },
+        { "title": "Board Members & Directors", "desc": "Overseeing governance, risk resilience, and long-term capital allocation." },
+        { "title": "Business Leaders", "desc": "Leading strategic business units, product divisions, and commercial operations." },
+        { "title": "Industrial & Plant Leaders", "desc": "Managing factory operations, engineering excellence, and throughput." },
+        { "title": "Transformation Leaders", "desc": "Spearheading Industry 4.0, digital transformation, and organizational renewal." },
+        { "title": "Senior Management Teams", "desc": "Coordinating cross-functional execution across finance, supply chain, and talent." }
+      ]
+    }
+  },
+  "whyParticipate": {
+    "title": "Why Participate?",
+    "intro": "TNI²TRI helps organisations:",
+    "reasons": [
+      "Understand where they stand with empirical diagnostic precision",
+      "Identify what is preventing progress across connected domains",
+      "Understand root causes instead of fighting surface symptoms",
+      "Identify dependencies before executing complex changes",
+      "Determine readiness to avoid costly premature implementations",
+      "Prioritise transformation requirements based on impact and feasibility",
+      "Understand resource requirements (capital, talent, technology, time)",
+      "Establish transformation direction with unambiguous roadmaps",
+      "Measure progress through validated leading and lagging indicators",
+      "Learn from transformation to codify institutional wisdom",
+      "Prepare for the next cycle of industrial growth and renewal"
+    ],
+    "highlight": "Make better transformation decisions before committing significant resources to them."
+  },
+  "whatToExpect": {
+    "title": "What to Expect",
+    "pillars": [
+      {
+        "title": "Structured",
+        "desc": "A defined assessment architecture guides the process from inception to execution."
+      },
+      {
+        "title": "Adaptive",
+        "desc": "Questions and diagnostic pathways respond dynamically to your organisation's unique industry context."
+      },
+      {
+        "title": "Evidence-Oriented",
+        "desc": "Important findings can be supported, corroborated, and validated against empirical ground truth."
+      },
+      {
+        "title": "Holistic",
+        "desc": "The organisation is viewed across interconnected domains rather than disconnected department silos."
+      },
+      {
+        "title": "Action-Oriented",
+        "desc": "The outcome focuses decisively on what should happen next with clear sequencing and ownership."
+      },
+      {
+        "title": "Continuous",
+        "desc": "Assessment leads into implementation, impact measurement, and future cycles of institutional reassessment."
+      }
+    ]
+  }
+}

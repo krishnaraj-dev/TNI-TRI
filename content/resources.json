@@ -1,0 +1,128 @@
+{
+  "title": "TNI²TRI Resources",
+  "eyebrow": "PAGE 09 — RESOURCES",
+  "subtitle": "Knowledge, Research & Transformation Perspectives",
+  "intro": "Access curated frameworks, industrial intelligence briefings, and empirical transformation insights designed for leadership and operational teams.",
+  "categories": [
+    {
+      "id": "industrial",
+      "name": "Industrial Intelligence",
+      "tagline": "Insights into changing industrial environments, sectors, markets, technologies and emerging opportunities.",
+      "description": "Macro and micro-economic analyses tracking manufacturing shifts, policy incentives, supply chain re-shoring, and technological inflection points across Tamil Nadu and global corridors.",
+      "items": [
+        {
+          "title": "Tamil Nadu Industrial Horizon 2026: Macro Shifts & Sectoral Momentum",
+          "type": "Intelligence Report",
+          "readTime": "12 min read",
+          "date": "Q1 2026",
+          "summary": "Comprehensive overview of manufacturing clustering, electronics corridor growth, electric vehicle ecosystems, and advanced precision engineering trends across Tamil Nadu.",
+          "tags": ["State Intelligence", "Sectoral Trends", "Manufacturing"]
+        },
+        {
+          "title": "Global Supply Chain Reconfigurations: Opportunities for Indian Industrial Hubs",
+          "type": "Strategic Briefing",
+          "readTime": "9 min read",
+          "date": "2026",
+          "summary": "Analysis of multi-sourcing, localization mandates, export quality thresholds, and how regional manufacturing ecosystems can capture tier-1 global contracts.",
+          "tags": ["Supply Chain", "Global Trade", "Export Competitiveness"]
+        },
+        {
+          "title": "Clean Energy & Carbon Border Transitions: Industrial Impact Assessment",
+          "type": "Policy Whitepaper",
+          "readTime": "15 min read",
+          "date": "2026",
+          "summary": "Navigating CBAM, renewable energy adoption, and ESG compliance for heavy industries and export-oriented MSMEs in South India.",
+          "tags": ["Sustainability", "ESG", "Policy"]
+        }
+      ]
+    },
+    {
+      "id": "transformation",
+      "name": "Transformation Intelligence",
+      "tagline": "Knowledge and insights supporting organisational transformation and industrial capability development.",
+      "description": "Methodologies and diagnostic architectures to guide complex modernization initiatives without incurring premature capital expenditure.",
+      "items": [
+        {
+          "title": "The Diagnostic Precedence: Why Understanding Must Precede Capital Allocation",
+          "type": "Methodology Paper",
+          "readTime": "10 min read",
+          "date": "2026",
+          "summary": "Deconstructing why 70% of industrial digital initiatives stall due to surface-level symptom treatment, and how adaptive diagnostics de-risk investments.",
+          "tags": ["Methodology", "Diagnostics", "CapEx Optimization"]
+        },
+        {
+          "title": "From R0 to R5: Calibrating Institutional Readiness for Industry 4.0",
+          "type": "Capability Framework",
+          "readTime": "14 min read",
+          "date": "2026",
+          "summary": "A deep dive into the 8 pillars of transformation readiness and the mathematical criteria separating 'Aware' organizations from 'Transformation Capable' enterprises.",
+          "tags": ["Readiness Scale", "Industry 4.0", "Operating Models"]
+        },
+        {
+          "title": "Cross-Functional Dependency Mapping in Complex Plant Environments",
+          "type": "Technical Guide",
+          "readTime": "11 min read",
+          "date": "2026",
+          "summary": "Techniques for discovering hidden interlocks between maintenance data, worker fluency, legacy ERP constraints, and automated quality gates.",
+          "tags": ["Systems Architecture", "Dependencies", "Shopfloor"]
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "name": "Publications",
+      "tagline": "Research, reports, frameworks, guides and knowledge resources developed around industrial intelligence and transformation.",
+      "description": "Official institutional releases, academic whitepapers, and standardized transformation handbooks published by the TNI²TRI consortium.",
+      "items": [
+        {
+          "title": "TNI²TRI 2026 Official Assessment Architecture & Domain Specification Handbook",
+          "type": "Official Standard",
+          "readTime": "45 min read",
+          "date": "2026 Edition",
+          "summary": "The definitive guide to the 10 Industrial Transformation Domains, diagnostic flows, C0–C3 evidence tiers, and implementation governance principles.",
+          "tags": ["Official Standard", "Handbook", "Governance"]
+        },
+        {
+          "title": "State of Tamil Nadu Industrial Maturity: Baseline Diagnostic Compendium",
+          "type": "Annual Report",
+          "readTime": "30 min read",
+          "date": "2026",
+          "summary": "Aggregated, anonymized benchmark findings across automotive, aerospace, textiles, and engineering clusters across the state.",
+          "tags": ["Benchmark Report", "State Analysis", "Economics"]
+        }
+      ]
+    },
+    {
+      "id": "insights",
+      "name": "Insights",
+      "tagline": "Practical perspectives on capability, readiness, transformation, implementation and continuous improvement.",
+      "description": "Executive briefings, practitioner notes, and decision frameworks for C-suite leaders, plant heads, and change champions.",
+      "items": [
+        {
+          "title": "The Six Transformation Control Decisions: Knowing When to Continue, Pause, or Reset",
+          "type": "Executive Insight",
+          "readTime": "6 min read",
+          "date": "2026",
+          "summary": "How executive sponsors use evidence gates to prevent sunk-cost fallacies and maintain tight decision discipline throughout multi-year transformations.",
+          "tags": ["Leadership", "Decision Discipline", "Governance"]
+        },
+        {
+          "title": "Closing the Frontline Skills Chasm in Smart Manufacturing",
+          "type": "Practitioner Note",
+          "readTime": "8 min read",
+          "date": "2026",
+          "summary": "Actionable strategies for upskilling plant floor technicians and integrating intuitive digital interfaces that drive genuine daily adoption.",
+          "tags": ["People & Skills", "Workforce", "Adoption"]
+        },
+        {
+          "title": "Beyond the Scorecard: Turning Assessment Diagnostic Trees into 90-Day Sprints",
+          "type": "Implementation Guide",
+          "readTime": "7 min read",
+          "date": "2026",
+          "summary": "Bridging long-term strategic direction with rapid operational quick wins that build cross-departmental momentum and secure early ROI.",
+          "tags": ["Execution", "Agile Transformation", "Roadmapping"]
+        }
+      ]
+    }
+  ]
+}

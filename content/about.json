@@ -1,0 +1,67 @@
+{
+  "title": "About TNI²TRI",
+  "eyebrow": "PAGE 02 — ABOUT TNI²TRI",
+  "subtitle": "An Intelligence-to-Transformation System for Industries",
+  "intro": "TNI²TRI 2026 is designed to help industries understand their current state, determine transformation readiness, identify priorities and move toward structured transformation.",
+  "systemConnection": {
+    "headline": "The system connects:",
+    "chain": "Industrial Intelligence → Transformation Readiness → Transformation Intelligence & Implementation"
+  },
+  "purpose": {
+    "title": "Our Purpose",
+    "headline": "Transformation should be based on understanding.",
+    "description": "TNI²TRI exists to create a structured bridge between:\n\nWhat is happening\nand\nWhat should happen next.",
+    "detailedDescription": "It brings intelligence, assessment, evidence, diagnosis, readiness, prioritisation, resources, planning, transformation, measurement and learning into one connected cycle."
+  },
+  "coreQuestions": {
+    "title": "Our Core Questions",
+    "intro": "TNI²TRI is built around three fundamental questions:",
+    "questions": [
+      {
+        "question": "What is happening?",
+        "layer": "TNIIIRBI",
+        "layerName": "Industrial Intelligence",
+        "description": "Establishes contextual visibility into sector dynamics, technology evolution, benchmark metrics, competitive movements, and macro environment signals."
+      },
+      {
+        "question": "Where are we now, and what are we ready for?",
+        "layer": "TNITRI",
+        "layerName": "Transformation Readiness Intelligence",
+        "description": "Rigorous, multi-domain assessment evaluating capability maturity, factual evidence, hidden dependencies, vulnerabilities, and organizational readiness."
+      },
+      {
+        "question": "What should we do next, and how should we transform?",
+        "layer": "TNI²TRI",
+        "layerName": "Transformation Intelligence & Implementation",
+        "description": "Translates diagnostic clarity into prioritized sequencing, resource deployment, structured execution, change governance, and iterative reassessment."
+      }
+    ]
+  },
+  "philosophy": {
+    "title": "Our Philosophy",
+    "headline": "Understand Before You Transform.",
+    "statement": "Transformation without sufficient understanding can create:",
+    "pitfalls": [
+      { "title": "Misaligned investment", "desc": "Capital deployed into tools, technologies, or programs that fail to address the core bottleneck." },
+      { "title": "Fragmented initiatives", "desc": "Siloed efforts across departments lacking unified architectural vision and coordination." },
+      { "title": "Unnecessary complexity", "desc": "Over-engineered systems that overburden teams rather than streamlining industrial flow." },
+      { "title": "Poor resource allocation", "desc": "Misdirected human, financial, and management attention starving critical high-leverage domains." },
+      { "title": "Weak adoption", "desc": "Employee resistance and procedural bypasses resulting from unprepared cultural and skills baselines." },
+      { "title": "Unmeasured outcomes", "desc": "Vague objectives that cannot be corroborated with empirical evidence or repeatable KPIs." }
+    ],
+    "conclusion": "TNI²TRI therefore establishes understanding before recommending transformation direction."
+  },
+  "continuousModel": {
+    "title": "Our Continuous Model",
+    "subtitle": "An unbroken feedback loop for sustainable industrial leadership",
+    "stages": [
+      { "name": "INTELLIGENCE", "desc": "Continuous environmental and internal data gathering" },
+      { "name": "READINESS", "desc": "Diagnostic capability profiling and gap validation" },
+      { "name": "TRANSFORMATION", "desc": "Disciplined roadmap execution and capability building" },
+      { "name": "IMPACT", "desc": "Empirical measurement of operational and economic value" },
+      { "name": "LEARNING", "desc": "Institutional knowledge codification and insight capture" },
+      { "name": "REASSESSMENT", "desc": "Periodic diagnostic calibration of the new organizational state" },
+      { "name": "RENEWAL", "desc": "Strategic horizon scanning and next-phase capability renewal" }
+    ]
+  }
+}

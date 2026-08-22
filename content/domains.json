@@ -1,0 +1,168 @@
+{
+  "title": "The 10 Industrial Transformation Domains",
+  "eyebrow": "PAGE 04 — 10 DOMAINS",
+  "subtitle": "See the Organisation as a Whole",
+  "intro": "TNI²TRI examines the interconnected capabilities that influence industrial performance and transformation readiness across ten fundamental structural pillars.",
+  "domains": [
+    {
+      "id": "01",
+      "number": "Domain 01",
+      "name": "Industrial Capability",
+      "coreQuestion": "Can we execute?",
+      "description": "Requirements, resource allocation, planning, processes, capacity, productivity, quality and continuous improvement.",
+      "keyFocusAreas": [
+        "Manufacturing and operational throughput",
+        "Process standardization and workflow discipline",
+        "Equipment effectiveness (OEE) and maintenance",
+        "Quality management systems and defect reduction",
+        "Lean practices and continuous improvement loops"
+      ],
+      "diagnosticMetrics": ["Capacity Utilization", "Yield Rate", "Cycle Time Variance", "Standard Operating Procedure Compliance"],
+      "color": "from-blue-600 to-indigo-700"
+    },
+    {
+      "id": "02",
+      "number": "Domain 02",
+      "name": "Technology & Digital",
+      "coreQuestion": "Can technology enable us?",
+      "description": "Technology, digital infrastructure, systems, data, integration, automation, governance and future technology readiness.",
+      "keyFocusAreas": [
+        "Core enterprise systems (ERP, MES, PLM) interoperability",
+        "Shopfloor automation, robotics, and IIoT sensor telemetry",
+        "Data architecture, analytics pipelines, and single source of truth",
+        "Cybersecurity, access controls, and network resilience",
+        "AI/ML readiness and digital twin integration capabilities"
+      ],
+      "diagnosticMetrics": ["System Interoperability Index", "Data Latency", "Digital Asset Adoption", "Cyber Governance Maturity"],
+      "color": "from-cyan-600 to-blue-700"
+    },
+    {
+      "id": "03",
+      "number": "Domain 03",
+      "name": "Organisation & Operating Model",
+      "coreQuestion": "Can we coordinate ourselves?",
+      "description": "Structure, roles, decision-making, operating model, management systems, coordination and organisational effectiveness.",
+      "keyFocusAreas": [
+        "Organizational design and reporting clarity",
+        "Cross-functional communication and alignment",
+        "Delegation of authority and decision velocity",
+        "Management operating systems and cadence",
+        "Operational agility and friction elimination"
+      ],
+      "diagnosticMetrics": ["Decision Cycle Time", "Role Clarity Index", "Cross-Functional Friction Score", "Operating Cadence Discipline"],
+      "color": "from-teal-600 to-emerald-700"
+    },
+    {
+      "id": "04",
+      "number": "Domain 04",
+      "name": "People & Skills",
+      "coreQuestion": "Can our people perform and evolve?",
+      "description": "Workforce capability, skills, leadership capability, learning, training, talent and future skills readiness.",
+      "keyFocusAreas": [
+        "Technical competencies and multi-skilling programs",
+        "Frontline upskilling for Industry 4.0 paradigms",
+        "Leadership pipeline and managerial readiness",
+        "Continuous learning infrastructure and knowledge capture",
+        "Talent attraction, retention, and performance culture"
+      ],
+      "diagnosticMetrics": ["Skill Gap Ratio", "Training Hours per Employee", "Critical Role Retention", "Digital Fluency Index"],
+      "color": "from-amber-600 to-orange-700"
+    },
+    {
+      "id": "05",
+      "number": "Domain 05",
+      "name": "Innovation & Product Development",
+      "coreQuestion": "Can we create what comes next?",
+      "description": "Opportunity identification, customer insight, validation, development, commercial viability, innovation governance and market introduction.",
+      "keyFocusAreas": [
+        "R&D pipeline management and stage-gate governance",
+        "Customer-centric co-creation and market problem validation",
+        "Prototyping velocity, testing, and simulation capability",
+        "Value engineering and design-to-cost principles",
+        "Time-to-market acceleration and commercialization readiness"
+      ],
+      "diagnosticMetrics": ["R&D Vitality Index", "Time-to-Market", "Stage-Gate Conversion Rate", "Patent & IP Intensity"],
+      "color": "from-violet-600 to-purple-700"
+    },
+    {
+      "id": "06",
+      "number": "Domain 06",
+      "name": "Market & Competitiveness",
+      "coreQuestion": "Are we creating relevant value for the market?",
+      "description": "Market intelligence, customers, demand, positioning, value proposition, competitiveness, go-to-market and market adaptation.",
+      "keyFocusAreas": [
+        "Competitive positioning and differentiation strategy",
+        "Customer segmentation, churn reduction, and lifetime value",
+        "Pricing power and value proposition articulation",
+        "Channel effectiveness, digital commerce, and export expansion",
+        "Responsiveness to shifting macroeconomic and sector demands"
+      ],
+      "diagnosticMetrics": ["Market Share Growth", "Customer Retention Rate", "Gross Margin Premium", "Channel Conversion Ratio"],
+      "color": "from-blue-700 to-sky-800"
+    },
+    {
+      "id": "07",
+      "number": "Domain 07",
+      "name": "Supply Chain & Value Network",
+      "coreQuestion": "Can we reliably access and deliver what is required?",
+      "description": "Supply strategy, suppliers, sourcing, procurement, inventory, material flow, distribution and supply resilience.",
+      "keyFocusAreas": [
+        "Supplier relationship management and tier-2 visibility",
+        "Strategic sourcing, localized vendor ecosystems, and dual-sourcing",
+        "Inventory optimization (WIP, raw materials, safety stock)",
+        "Logistics, freight efficiency, and on-time in-full (OTIF) delivery",
+        "Supply chain disruption resilience and risk mitigation"
+      ],
+      "diagnosticMetrics": ["OTIF Rate", "Inventory Turns", "Supplier Quality Rating", "Supply Disruption Lead Time"],
+      "color": "from-emerald-600 to-teal-800"
+    },
+    {
+      "id": "08",
+      "number": "Domain 08",
+      "name": "Financial & Economic Capability",
+      "coreQuestion": "Can the business economically sustain and fund itself?",
+      "description": "Revenue, cost, margin, cash, working capital, capital allocation, investment, economic value and financial resilience.",
+      "keyFocusAreas": [
+        "Unit economics, cost structure optimization, and margin health",
+        "Working capital cycle and cash flow predictability",
+        "Capital expenditure (CapEx) governance and transformation budgeting",
+        "Return on invested capital (ROIC) and value creation tracking",
+        "Financial stress testing and liquidity reserves"
+      ],
+      "diagnosticMetrics": ["Cash Conversion Cycle", "EBITDA Margin Stability", "CapEx ROI", "Working Capital Ratio"],
+      "color": "from-slate-700 to-zinc-900"
+    },
+    {
+      "id": "09",
+      "number": "Domain 09",
+      "name": "Governance, Risk & Resilience",
+      "coreQuestion": "Can we remain protected, responsible and resilient?",
+      "description": "Governance, accountability, risk, controls, compliance, continuity, crisis response, recovery and resilience.",
+      "keyFocusAreas": [
+        "Statutory, regulatory, environmental, and safety compliance",
+        "Enterprise risk management (ERM) and internal controls",
+        "Business continuity planning (BCP) and disaster recovery",
+        "ESG (Environmental, Social, Governance) sustainability metrics",
+        "Audit readiness, transparency, and ethical leadership"
+      ],
+      "diagnosticMetrics": ["Compliance Audit Score", "BCP Recovery Time Objective", "Incident Frequency Rate", "ESG Readiness Score"],
+      "color": "from-rose-600 to-red-800"
+    },
+    {
+      "id": "10",
+      "number": "Domain 10",
+      "name": "Leadership, Culture & Transformation",
+      "coreQuestion": "Can we deliberately evolve ourselves?",
+      "description": "Purpose, vision, leadership, culture, strategic choices, transformation design, execution, adoption, institutionalisation, learning and renewal.",
+      "keyFocusAreas": [
+        "Executive alignment, vision clarity, and leadership authenticity",
+        "Psychological safety, accountability, and high-performance culture",
+        "Transformation program management and change sponsorship",
+        "Adoption measurement, resistance management, and pulse tracking",
+        "Continuous renewal, adaptability, and institutional learning"
+      ],
+      "diagnosticMetrics": ["Leadership Alignment Index", "Change Adoption Velocity", "Employee Engagement Score", "Transformation Milestone Delivery"],
+      "color": "from-indigo-700 to-blue-900"
+    }
+  ]
+}

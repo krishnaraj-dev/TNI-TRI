@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "name": "TNI²TRI",
+    "year": "2026",
+    "fullName": "Tamil Nadu Industrial Intelligence → Transformation Readiness & Implementation",
+    "acronymBreakdown": {
+      "TNIIIRBI": "Tamil Nadu Industrial Intelligence & Industry Research Base Interface",
+      "TNITRI": "Tamil Nadu Industrial Transformation Readiness Intelligence",
+      "TNI2TRI": "Tamil Nadu Industrial Intelligence → Transformation Readiness & Implementation"
+    },
+    "tagline": "Know Where You Stand. Know What Must Change. Know What to Do Next.",
+    "cycleMotto": "Intelligence → Readiness → Transformation → Impact → Reassessment",
+    "copyright": "© 2026 TNI²TRI. All Rights Reserved."
+  },
+  "contact": {
+    "email": "mail@brandingbuddha.in",
+    "officialEmail": "info@tni2tri2026.tn.gov.in",
+    "phone": "+91 9952996930",
+    "location": "Tamil Nadu, India",
+    "officeHours": "Monday - Friday: 9:00 AM - 6:00 PM IST"
+  },
+  "primaryCTA": {
+    "label": "REGISTER & START ASSESSMENT",
+    "href": "/register"
+  },
+  "secondaryCTA": {
+    "label": "UNDERSTAND TNI²TRI",
+    "href": "/about"
+  },
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "How It Works", "href": "/how-it-works" },
+    { "label": "10 Domains", "href": "/domains" },
+    { "label": "Assessment", "href": "/assessment" },
+    { "label": "Outcomes", "href": "/outcomes" },
+    { "label": "Participate", "href": "/participate" },
+    { "label": "Resources", "href": "/resources" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "utilityNav": [
+    { "label": "TNIIIRBI", "desc": "Industrial Intelligence", "href": "/#system-tniiirbi" },
+    { "label": "TNITRI", "desc": "Readiness Intelligence", "href": "/#system-tnitri" },
+    { "label": "TNI²TRI", "desc": "Transformation Implementation", "href": "/#system-tni2tri" }
+  ],
+  "footer": {
+    "exploreLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "About TNI²TRI", "href": "/about" },
+      { "label": "How It Works", "href": "/how-it-works" },
+      { "label": "10 Domains", "href": "/domains" },
+      { "label": "Assessment", "href": "/assessment" },
+      { "label": "Outcomes", "href": "/outcomes" },
+      { "label": "Participate", "href": "/participate" },
+      { "label": "Resources", "href": "/resources" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "assessmentLinks": [
+      { "label": "Assessment Overview", "href": "/assessment" },
+      { "label": "Adaptive Assessment", "href": "/assessment#adaptive" },
+      { "label": "Evidence & Validation", "href": "/assessment#evidence" },
+      { "label": "Readiness Scales", "href": "/assessment#readiness" },
+      { "label": "Diagnostic Process", "href": "/assessment#diagnosis" },
+      { "label": "Assessment Outputs", "href": "/outcomes" },
+      { "label": "Registration", "href": "/register" }
+    ],
+    "intelligenceLinks": [
+      { "label": "TNIIIRBI — What is Happening", "href": "/about#tniiirbi" },
+      { "label": "TNITRI — Where We Stand", "href": "/about#tnitri" },
+      { "label": "TNI²TRI — What To Do Next", "href": "/about#tni2tri" },
+      { "label": "Industrial Intelligence", "href": "/resources?category=industrial" },
+      { "label": "Transformation Intelligence", "href": "/resources?category=transformation" }
+    ]
+  }
+}

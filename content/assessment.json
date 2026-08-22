@@ -1,0 +1,91 @@
+{
+  "title": "TNI²TRI Assessment",
+  "eyebrow": "PAGE 05 — ASSESSMENT",
+  "subtitle": "More Than a Questionnaire",
+  "intro": "TNI²TRI is an adaptive diagnostic process, not a standard one-size-fits-all questionnaire. The assessment begins with a structured baseline and progressively adapts according to the organisation's context and responses.",
+  "assessmentLogic": {
+    "title": "Assessment Logic",
+    "flow": [
+      { "step": "01", "name": "Question", "desc": "Context-sensitive baseline inquiry" },
+      { "step": "02", "name": "Response", "desc": "Stakeholder input across operational parameters" },
+      { "step": "03", "name": "Classification", "desc": "Algorithmic categorization of maturity and risk signals" },
+      { "step": "04", "name": "Next Question", "desc": "Dynamic branching to targeted deeper exploration" },
+      { "step": "05", "name": "Evidence", "desc": "Verification and grounding of claims against data" },
+      { "step": "06", "name": "Deeper Assessment", "desc": "Root-cause diagnostics and dependency profiling" }
+    ],
+    "philosophy": "The objective is not to ask more questions. The objective is to ask the right questions."
+  },
+  "evidenceValidation": {
+    "title": "Evidence & Validation",
+    "headline": "The assessment distinguishes between what the organisation reports and what available evidence demonstrates.",
+    "levels": [
+      {
+        "code": "C0",
+        "title": "Unverified",
+        "badge": "Level C0",
+        "description": "Self-reported information without sufficient supporting evidence.",
+        "implication": "Baseline hypothesis requiring validation prior to resource commitment.",
+        "color": "bg-slate-100 text-slate-800 border-slate-300"
+      },
+      {
+        "code": "C1",
+        "title": "Supported",
+        "badge": "Level C1",
+        "description": "Some supporting information is available.",
+        "implication": "Initial documentation or anecdotal verification exists; further corroboration recommended.",
+        "color": "bg-blue-50 text-blue-800 border-blue-200"
+      },
+      {
+        "code": "C2",
+        "title": "Corroborated",
+        "badge": "Level C2",
+        "description": "Multiple sources or evidence support the finding.",
+        "implication": "High confidence backed by cross-departmental data, KPI logs, and process audits.",
+        "color": "bg-indigo-50 text-indigo-800 border-indigo-200"
+      },
+      {
+        "code": "C3",
+        "title": "Verified",
+        "badge": "Level C3",
+        "description": "Strong evidence confirms the finding.",
+        "implication": "Empirical ground truth validated through independent verification, automated telemetry, and historical audits.",
+        "color": "bg-emerald-50 text-emerald-800 border-emerald-200"
+      }
+    ]
+  },
+  "diagnosticIntelligence": {
+    "title": "Diagnostic Intelligence",
+    "subtitle": "The assessment investigates:",
+    "pipeline": [
+      { "stage": "Condition", "question": "What is the present observable operational reality?", "icon": "Eye" },
+      { "stage": "Gap", "question": "What is missing or lagging compared to target industrial benchmarks?", "icon": "Target" },
+      { "stage": "Root Cause", "question": "Why does this gap exist structurally, procedurally, or culturally?", "icon": "HelpCircle" },
+      { "stage": "Dependency", "question": "What other functions, systems, or capabilities are linked to this issue?", "icon": "GitFork" },
+      { "stage": "Impact", "question": "How severely does this bottleneck restrict enterprise throughput and value?", "icon": "AlertTriangle" },
+      { "stage": "Transformation Implication", "question": "What concrete, sequenced intervention must occur to resolve it sustainably?", "icon": "Compass" }
+    ],
+    "highlight": "The objective is not merely to identify weaknesses. The objective is to understand why they exist, what they affect and what should happen next."
+  },
+  "readiness": {
+    "title": "Transformation Readiness",
+    "subtitle": "Readiness is evaluated across eight strategic pillars:",
+    "pillars": [
+      { "name": "Strategy", "desc": "Clarity of strategic direction and executive commitment" },
+      { "name": "Organisation", "desc": "Structural agility, cross-functional coordination, and governance" },
+      { "name": "Capability", "desc": "Operational, engineering, and manufacturing mastery" },
+      { "name": "Technology", "desc": "Digital backbone, system interoperability, and data integrity" },
+      { "name": "People", "desc": "Workforce skills, training infrastructure, and change appetite" },
+      { "name": "Finance", "desc": "Capital availability, CapEx governance, and cash flow cushion" },
+      { "name": "Resources", "desc": "Physical infrastructure, equipment bandwidth, and partner networks" },
+      { "name": "Risk & Leadership", "desc": "Enterprise resilience, crisis response, and executive sponsorship" }
+    ],
+    "scale": [
+      { "code": "R0", "name": "Not Ready", "description": "Unprepared; fundamental prerequisite structural clarity or leadership mandate is missing." },
+      { "code": "R1", "name": "Aware", "description": "Recognizes the need to evolve; gaps are acknowledged but unstructured." },
+      { "code": "R2", "name": "Preparing", "description": "Initial resource alignment, baseline reviews, and scoping underway." },
+      { "code": "R3", "name": "Ready", "description": "Operational foundations and governance in place for targeted execution." },
+      { "code": "R4", "name": "Transformation Ready", "description": "High maturity, evidence-backed capabilities, and cross-functional momentum established." },
+      { "code": "R5", "name": "Transformation Capable", "description": "Institutionalized agility; continuous learning, rapid pivoting, and self-renewal." }
+    ]
+  }
+}

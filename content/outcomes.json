@@ -1,0 +1,106 @@
+{
+  "title": "What the Industry Receives",
+  "eyebrow": "PAGE 06 — OUTCOMES",
+  "subtitle": "From Assessment to Actionable Clarity",
+  "intro": "TNI²TRI provides leaders with unprecedented diagnostic clarity, replacing ambiguous intuition with empirically validated intelligence and an actionable implementation blueprint.",
+  "deliverables": [
+    {
+      "id": "current-state",
+      "title": "Current State",
+      "subtitle": "Where the organisation stands today.",
+      "description": "A comprehensive baseline diagnostic reflecting operational reality, capacity, throughput, and structural posture across all operational business units.",
+      "category": "Diagnostic Clarity"
+    },
+    {
+      "id": "capability-profile",
+      "title": "Capability Profile",
+      "subtitle": "What is strong, developing or constrained.",
+      "description": "Multi-dimensional heatmaps and spider-radar visualizations depicting strengths, emerging competencies, and critical bottleneck constraints across 10 domains.",
+      "category": "Diagnostic Clarity"
+    },
+    {
+      "id": "maturity-profile",
+      "title": "Maturity Profile",
+      "subtitle": "How developed capabilities are.",
+      "description": "Benchmark-calibrated maturity scoring from initial ad-hoc practices to optimized institutional execution against state and global industrial leaders.",
+      "category": "Diagnostic Clarity"
+    },
+    {
+      "id": "evidence-confidence",
+      "title": "Evidence Confidence",
+      "subtitle": "How strongly findings are supported.",
+      "description": "Rigorous C0–C3 confidence rating attached to every assessment finding, clearly separating verified facts from uncorroborated assumptions.",
+      "category": "Diagnostic Clarity"
+    },
+    {
+      "id": "risk-profile",
+      "title": "Risk Profile",
+      "subtitle": "Where significant vulnerabilities may exist.",
+      "description": "Detailed vulnerability registry highlighting operational fragility, digital exposure, single-point failures, regulatory compliance risks, and supply chain friction.",
+      "category": "Risk & Gap Analysis"
+    },
+    {
+      "id": "gap-analysis",
+      "title": "Gap Analysis",
+      "subtitle": "What is missing or insufficient.",
+      "description": "Granular delta comparison between current operational performance and the strategic benchmarks required for next-tier competitiveness.",
+      "category": "Risk & Gap Analysis"
+    },
+    {
+      "id": "root-cause-analysis",
+      "title": "Root-Cause Analysis",
+      "subtitle": "Why important gaps exist.",
+      "description": "Deep-dive diagnostic trees isolating the structural, behavioral, or systemic origins of recurring operational and financial inefficiencies.",
+      "category": "Risk & Gap Analysis"
+    },
+    {
+      "id": "dependency-map",
+      "title": "Dependency Map",
+      "subtitle": "What capabilities depend on what.",
+      "description": "Cross-functional dependency networks illustrating prerequisite workflows, critical path constraints, and cross-domain linkage dynamics.",
+      "category": "Transformation Architecture"
+    },
+    {
+      "id": "readiness-profile",
+      "title": "Readiness Profile",
+      "subtitle": "What the organisation is ready to undertake.",
+      "description": "Calibrated readiness score (R0–R5) across leadership, technology, workforce, finance, and governance, preventing premature or unsustainable initiatives.",
+      "category": "Transformation Architecture"
+    },
+    {
+      "id": "priority-map",
+      "title": "Priority Map",
+      "subtitle": "What matters most now.",
+      "description": "Dynamic urgency vs. impact prioritization matrix identifying quick wins, strategic cornerstones, and de-prioritized secondary tasks.",
+      "category": "Transformation Architecture"
+    },
+    {
+      "id": "resource-requirements",
+      "title": "Resource Requirements",
+      "subtitle": "What must be enabled before transformation.",
+      "description": "Comprehensive resource blueprint specifying capital requirements, talent profiles, digital tooling, and time bandwidth essential for success.",
+      "category": "Implementation & Control"
+    },
+    {
+      "id": "transformation-direction",
+      "title": "Transformation Direction",
+      "subtitle": "What should change and in what sequence.",
+      "description": "Phased implementation roadmap defining workstreams, accountability ownership, execution guardrails, and decision gates.",
+      "category": "Implementation & Control"
+    },
+    {
+      "id": "measurement-direction",
+      "title": "Measurement Direction",
+      "subtitle": "How progress and impact should be evaluated.",
+      "description": "Empirical KPI framework with leading and lagging indicators, automated telemetry checkpoints, and value-realization dashboards.",
+      "category": "Implementation & Control"
+    },
+    {
+      "id": "reassessment-direction",
+      "title": "Reassessment Direction",
+      "subtitle": "When and where the next assessment should begin.",
+      "description": "Defined cadence for continuous calibration, post-transformation review, and institutional renewal cycles.",
+      "category": "Implementation & Control"
+    }
+  ]
+}
