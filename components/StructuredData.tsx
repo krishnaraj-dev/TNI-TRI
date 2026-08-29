@@ -49,9 +49,9 @@ export function GlobalOrganizationSchema() {
     contactPoint: [
       {
         '@type': 'ContactPoint',
-        telephone: siteMeta.contact.phone,
-        contactType: 'technical support and secretariat inquiries',
-        email: siteMeta.contact.email,
+        telephone: '+91-9952996930',
+        contactType: 'secretariat inquiries and enterprise onboarding',
+        email: 'tni2tri2026@gmail.com',
         availableLanguage: ['English', 'Tamil'],
         hoursAvailable: {
           '@type': 'OpeningHoursSpecification',
@@ -62,8 +62,9 @@ export function GlobalOrganizationSchema() {
       },
       {
         '@type': 'ContactPoint',
-        email: siteMeta.contact.officialEmail,
-        contactType: 'official government and institutional liaison',
+        telephone: '+91-8248759056',
+        contactType: 'technical coordination and assessment support',
+        email: 'tni2tri2026@gmail.com',
         availableLanguage: ['English', 'Tamil'],
       },
     ],

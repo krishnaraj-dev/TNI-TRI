@@ -127,13 +127,35 @@ export function Footer() {
               <div className="flex items-start gap-2.5">
                 <Mail className="w-4 h-4 text-sky-400 mt-0.5 flex-shrink-0" />
                 <div>
-                  <div>Email: {siteMeta.contact.email}</div>
-                  <div className="text-xs text-slate-500">{siteMeta.contact.officialEmail}</div>
+                  <div className="text-slate-200">Email:</div>
+                  <a
+                    href={`mailto:${siteMeta.contact.email}`}
+                    className="text-sky-300 hover:underline break-all"
+                  >
+                    {siteMeta.contact.email}
+                  </a>
                 </div>
               </div>
               <div className="flex items-start gap-2.5">
                 <Phone className="w-4 h-4 text-emerald-400 mt-0.5 flex-shrink-0" />
-                <span>Phone: {siteMeta.contact.phone}</span>
+                <div>
+                  <div className="text-slate-200">Phone:</div>
+                  <div className="flex flex-wrap items-center gap-1.5 text-slate-300 font-mono text-xs">
+                    <a
+                      href={`tel:${siteMeta.contact.primaryPhone}`}
+                      className="hover:text-amber-400 transition-colors"
+                    >
+                      9952996930
+                    </a>
+                    <span className="text-slate-600">/</span>
+                    <a
+                      href={`tel:${siteMeta.contact.secondaryPhone}`}
+                      className="hover:text-amber-400 transition-colors"
+                    >
+                      8248759056
+                    </a>
+                  </div>
+                </div>
               </div>
               <div className="pt-2 text-xs text-slate-500">
                 {siteMeta.contact.officeHours}

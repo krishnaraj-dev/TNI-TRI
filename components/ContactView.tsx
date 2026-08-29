@@ -236,14 +236,31 @@ export function ContactView() {
 
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-sky-400 flex-shrink-0" />
-                  <a href={`mailto:${contactData.contactDetails.email}`} className="text-sky-300 hover:underline">
+                  <a
+                    href={`mailto:${contactData.contactDetails.email}`}
+                    className="text-sky-300 hover:underline font-mono"
+                  >
                     {contactData.contactDetails.email}
                   </a>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <Phone className="w-4 h-4 text-sky-400 flex-shrink-0" />
-                  <span className="text-slate-300">{contactData.contactDetails.phone}</span>
+                  <Phone className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                  <div className="text-slate-300 font-mono flex flex-wrap items-center gap-1.5">
+                    <a
+                      href={`tel:${contactData.contactDetails.primaryPhone}`}
+                      className="hover:text-amber-400 text-sky-300 transition-colors"
+                    >
+                      9952996930
+                    </a>
+                    <span className="text-slate-500">/</span>
+                    <a
+                      href={`tel:${contactData.contactDetails.secondaryPhone}`}
+                      className="hover:text-amber-400 text-sky-300 transition-colors"
+                    >
+                      8248759056
+                    </a>
+                  </div>
                 </div>
 
                 <div className="flex items-center gap-3">

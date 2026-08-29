@@ -36,18 +36,27 @@ export function Header() {
       {/* Top Utility Bar */}
       <div className="bg-[#07192d] text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-5">
-            <span className="inline-flex items-center gap-1.5 text-slate-300 hover:text-white transition-colors">
+          <div className="flex items-center gap-4 sm:gap-5">
+            <span className="inline-flex items-center gap-1.5 text-slate-300">
               <MapPin className="w-3.5 h-3.5 text-amber-400" />
               <span>{siteMeta.contact.location}</span>
             </span>
-            <a
-              href={`tel:${siteMeta.contact.phone}`}
-              className="inline-flex items-center gap-1.5 text-slate-300 hover:text-amber-400 transition-colors"
-            >
+            <span className="inline-flex items-center gap-1.5 text-slate-300">
               <Phone className="w-3.5 h-3.5 text-emerald-400" />
-              <span>{siteMeta.contact.phone}</span>
-            </a>
+              <a
+                href={`tel:${siteMeta.contact.primaryPhone}`}
+                className="hover:text-amber-400 transition-colors"
+              >
+                9952996930
+              </a>
+              <span className="text-slate-600">/</span>
+              <a
+                href={`tel:${siteMeta.contact.secondaryPhone}`}
+                className="hover:text-amber-400 transition-colors"
+              >
+                8248759056
+              </a>
+            </span>
             <a
               href={`mailto:${siteMeta.contact.email}`}
               className="hidden md:inline-flex items-center gap-1.5 text-slate-300 hover:text-sky-400 transition-colors"
