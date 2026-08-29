@@ -34,10 +34,37 @@ export function ContactView() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+
+    const recipient = 'tni2tri2026@gmail.com';
+    const subject = `TNI²TRI 2026 Executive Inquiry: ${formData.name} — ${formData.org} [${formData.inquiryType}]`;
+    const body = [
+      'TNI²TRI 2026 EXECUTIVE INQUIRY & COORDINATION DOSSIER',
+      '======================================================',
+      `Full Name:          ${formData.name}`,
+      `Organization:       ${formData.org}`,
+      `Corporate Email:    ${formData.email}`,
+      `Telephone / Mobile: ${formData.phone || 'Not Provided'}`,
+      `Nature of Inquiry:  ${formData.inquiryType}`,
+      '======================================================',
+      '',
+      'OPERATIONAL SCOPE & MESSAGE:',
+      formData.message,
+      '',
+      '======================================================',
+      'Transmitted via TNI²TRI 2026 Industrial Intelligence Portal',
+    ].join('\n');
+
+    const mailtoUrl = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Trigger email client with pre-filled content
+    if (typeof window !== 'undefined') {
+      window.location.href = mailtoUrl;
+    }
+
     setTimeout(() => {
       setLoading(false);
       setSubmitted(true);
-    }, 800);
+    }, 600);
   };
 
   return (
@@ -82,29 +109,56 @@ export function ContactView() {
 
             {submitted ? (
               <div className="p-8 rounded-2xl bg-emerald-50 border border-emerald-200 text-center flex flex-col items-center justify-center space-y-4 animate-in fade-in zoom-in-95">
-                <div className="w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center">
+                <div className="w-12 h-12 rounded-full bg-emerald-500 text-white flex items-center justify-center shadow-md">
                   <CheckCircle2 className="w-6 h-6" />
                 </div>
-                <h3 className="text-xl font-bold text-emerald-950">Inquiry Transmitted Successfully</h3>
-                <p className="text-xs sm:text-sm text-emerald-800 max-w-md">
-                  Thank you, <strong>{formData.name}</strong>. The TNI²TRI Secretariat has received your coordination dispatch. An assessment director will reply within 1 business day.
+                <h3 className="text-xl font-bold text-emerald-950">Inquiry Prepared & Email Client Opened</h3>
+                <p className="text-xs sm:text-sm text-emerald-800 max-w-md leading-relaxed">
+                  Thank you, <strong>{formData.name}</strong>. Your default email client has been launched with a pre-filled executive dispatch addressed directly to <strong className="font-mono text-emerald-950">tni2tri2026@gmail.com</strong>.
                 </p>
-                <button
-                  onClick={() => {
-                    setSubmitted(false);
-                    setFormData({
-                      name: '',
-                      org: '',
-                      email: '',
-                      phone: '',
-                      inquiryType: 'Assessment Onboarding',
-                      message: '',
-                    });
-                  }}
-                  className="px-5 py-2 rounded-lg bg-[#002d62] text-white text-xs font-bold hover:bg-[#07192d] transition-all"
-                >
-                  Send Another Inquiry
-                </button>
+                <div className="p-3 bg-white/80 rounded-lg border border-emerald-200 text-[11px] text-slate-700 max-w-md w-full text-left font-mono">
+                  <div><strong>To:</strong> tni2tri2026@gmail.com</div>
+                  <div className="truncate"><strong>Subject:</strong> TNI²TRI 2026 Executive Inquiry: {formData.name} — {formData.org}</div>
+                </div>
+                <div className="flex flex-wrap gap-2 pt-2">
+                  <a
+                    href={`mailto:tni2tri2026@gmail.com?subject=${encodeURIComponent(`TNI²TRI 2026 Executive Inquiry: ${formData.name} — ${formData.org} [${formData.inquiryType}]`)}&body=${encodeURIComponent([
+                      'TNI²TRI 2026 EXECUTIVE INQUIRY & COORDINATION DOSSIER',
+                      '======================================================',
+                      `Full Name:          ${formData.name}`,
+                      `Organization:       ${formData.org}`,
+                      `Corporate Email:    ${formData.email}`,
+                      `Telephone / Mobile: ${formData.phone || 'Not Provided'}`,
+                      `Nature of Inquiry:  ${formData.inquiryType}`,
+                      '======================================================',
+                      '',
+                      'OPERATIONAL SCOPE & MESSAGE:',
+                      formData.message,
+                      '',
+                      '======================================================',
+                      'Transmitted via TNI²TRI 2026 Industrial Intelligence Portal',
+                    ].join('\n'))}`}
+                    className="px-4 py-2 rounded-lg border border-emerald-600 text-emerald-900 bg-emerald-100/60 hover:bg-emerald-200 text-xs font-bold transition-all"
+                  >
+                    Re-open Email App
+                  </a>
+                  <button
+                    onClick={() => {
+                      setSubmitted(false);
+                      setFormData({
+                        name: '',
+                        org: '',
+                        email: '',
+                        phone: '',
+                        inquiryType: 'Assessment Onboarding',
+                        message: '',
+                      });
+                    }}
+                    className="px-5 py-2 rounded-lg bg-[#002d62] text-white text-xs font-bold hover:bg-[#07192d] transition-all"
+                  >
+                    Send Another Inquiry
+                  </button>
+                </div>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">

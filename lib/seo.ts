@@ -1,7 +1,10 @@
 import { Metadata } from 'next';
 import siteMeta from '@/content/site-meta.json';
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://tni2tri.org';
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.APP_URL ? `https://${process.env.APP_URL.replace(/^https?:\/\//, '')}` : 'https://tni2tri.org');
+
 export const SITE_NAME = 'TNI²TRI 2026';
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/opengraph-image`;
 
@@ -13,6 +16,7 @@ export interface PageSeoProps {
   ogType?: 'website' | 'article';
   publishedTime?: string;
   modifiedTime?: string;
+  noIndex?: boolean;
 }
 
 export function constructMetadata({
@@ -23,9 +27,11 @@ export function constructMetadata({
   ogType = 'website',
   publishedTime,
   modifiedTime,
+  noIndex = false,
 }: PageSeoProps): Metadata {
-  const url = `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`;
-  
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  const url = `${SITE_URL}${cleanPath === '/' ? '' : cleanPath}`;
+
   const baseKeywords = [
     'TNI2TRI 2026',
     'Tamil Nadu Industrial Intelligence',
@@ -37,6 +43,8 @@ export function constructMetadata({
     'Industry 4.0 Assessment Framework',
     'Industrial Capability Maturity',
     'Enterprise Transformation Roadmap',
+    'Smart Manufacturing India',
+    'Industrial Ecosystem Diagnostic',
   ];
 
   const allKeywords = Array.from(new Set([...baseKeywords, ...keywords]));
@@ -47,6 +55,17 @@ export function constructMetadata({
     keywords: allKeywords,
     alternates: {
       canonical: url,
+    },
+    robots: {
+      index: !noIndex,
+      follow: !noIndex,
+      googleBot: {
+        index: !noIndex,
+        follow: !noIndex,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
     },
     openGraph: {
       title: `${title} | ${SITE_NAME}`,
@@ -72,6 +91,7 @@ export function constructMetadata({
       description,
       images: [DEFAULT_OG_IMAGE],
       creator: '@tni2tri',
+      site: '@tni2tri',
     },
   };
 }

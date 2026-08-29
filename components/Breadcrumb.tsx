@@ -12,7 +12,7 @@ interface BreadcrumbProps {
   pageNumber?: string;
 }
 
-export function Breadcrumb({ items, pageNumber }: BreadcrumbProps) {
+export function Breadcrumb({ items }: BreadcrumbProps) {
   return (
     <div className="bg-slate-100/80 border-b border-slate-200 py-2.5 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2 text-xs font-medium text-slate-600">
@@ -38,12 +38,6 @@ export function Breadcrumb({ items, pageNumber }: BreadcrumbProps) {
             );
           })}
         </nav>
-
-        {pageNumber && (
-          <div className="text-[11px] font-bold tracking-wider text-slate-500 uppercase">
-            {pageNumber}
-          </div>
-        )}
       </div>
     </div>
   );
