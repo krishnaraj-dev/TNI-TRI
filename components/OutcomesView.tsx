@@ -31,7 +31,6 @@ export function OutcomesView() {
     <div className="w-full flex flex-col space-y-12 pb-20">
       <Breadcrumb
         items={[{ label: 'Outcomes', href: '/outcomes' }]}
-        pageNumber="PAGE 06 — OUTCOMES"
       />
 
       {/* Hero Header */}

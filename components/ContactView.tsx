@@ -71,7 +71,6 @@ export function ContactView() {
     <div className="w-full flex flex-col space-y-12 pb-20">
       <Breadcrumb
         items={[{ label: 'Contact & Coordination', href: '/contact' }]}
-        pageNumber="PAGE 10 — CONTACT"
       />
 
       {/* Hero Header */}

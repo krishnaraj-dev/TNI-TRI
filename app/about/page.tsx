@@ -63,7 +63,6 @@ export default function AboutPage() {
       />
       <Breadcrumb
         items={[{ label: 'About TNI²TRI', href: '/about' }]}
-        pageNumber="PAGE 02 — ABOUT TNI²TRI"
       />
 
       {/* Hero Header */}

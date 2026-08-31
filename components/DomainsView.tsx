@@ -34,7 +34,6 @@ export function DomainsView() {
     <div className="w-full flex flex-col space-y-12 pb-20">
       <Breadcrumb
         items={[{ label: '10 Domains', href: '/domains' }]}
-        pageNumber="PAGE 04 — 10 DOMAINS"
       />
 
       {/* Hero Header */}

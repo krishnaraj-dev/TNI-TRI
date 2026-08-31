@@ -27,7 +27,6 @@ export default function RegisterPage() {
       />
       <Breadcrumb
         items={[{ label: 'Registration Portal', href: '/register' }]}
-        pageNumber="PAGE 08 — REGISTRATION"
       />
 
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full">

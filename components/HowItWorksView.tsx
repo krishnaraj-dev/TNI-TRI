@@ -23,7 +23,6 @@ export function HowItWorksView() {
     <div className="w-full flex flex-col space-y-12 pb-20">
       <Breadcrumb
         items={[{ label: 'How It Works', href: '/how-it-works' }]}
-        pageNumber="PAGE 03 — HOW IT WORKS"
       />
 
       {/* Header */}

@@ -31,7 +31,6 @@ export function AssessmentView() {
     <div className="w-full flex flex-col space-y-12 pb-20">
       <Breadcrumb
         items={[{ label: 'Assessment', href: '/assessment' }]}
-        pageNumber="PAGE 05 — ASSESSMENT"
       />
 
       {/* Hero Header */}

@@ -62,7 +62,6 @@ export function ResourcesView() {
     <div className="w-full flex flex-col space-y-12 pb-20">
       <Breadcrumb
         items={[{ label: 'Resources & Intelligence', href: '/resources' }]}
-        pageNumber="PAGE 09 — RESOURCES"
       />
 
       {/* Hero Header */}

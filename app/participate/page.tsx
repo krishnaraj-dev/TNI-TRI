@@ -50,7 +50,6 @@ export default function ParticipatePage() {
       />
       <Breadcrumb
         items={[{ label: 'Participate', href: '/participate' }]}
-        pageNumber="PAGE 07 — PARTICIPATE"
       />
 
       {/* Hero Header */}
