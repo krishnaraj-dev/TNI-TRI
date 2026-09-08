@@ -33,9 +33,9 @@ export function GlobalOrganizationSchema() {
     url: SITE_URL,
     logo: {
       '@type': 'ImageObject',
-      url: `${SITE_URL}/opengraph-image`,
-      width: 1200,
-      height: 630,
+      url: `${SITE_URL}/tni2tri-logo.png`,
+      width: 1024,
+      height: 1024,
     },
     description:
       'TNI²TRI 2026 unites industrial intelligence, readiness assessment, and structured transformation implementation into a single continuous framework for industrial enterprises in Tamil Nadu.',
