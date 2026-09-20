@@ -1,6 +1,5 @@
 import { ImageResponse } from 'next/og';
 
-export const runtime = 'edge';
 export const alt = 'TNI²TRI 2026 — Industrial Intelligence & Transformation Readiness';
 export const size = {
   width: 1200,

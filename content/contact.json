@@ -8,7 +8,12 @@
     "tagline": "Tamil Nadu Industrial Intelligence → Transformation Readiness & Implementation"
   },
   "contactDetails": {
-    "email": "tni2tri2026@gmail.com",
+    "email": "mail@tni2tri.org",
+    "secondaryEmail": "info@tni2tri.org",
+    "emails": [
+      "mail@tni2tri.org",
+      "info@tni2tri.org"
+    ],
     "phone": "+91 9952996930 / 8248759056",
     "primaryPhone": "+91 9952996930",
     "secondaryPhone": "+91 8248759056",

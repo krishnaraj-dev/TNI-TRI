@@ -128,12 +128,20 @@ export function Footer() {
                 <Mail className="w-4 h-4 text-sky-400 mt-0.5 flex-shrink-0" />
                 <div>
                   <div className="text-slate-200">Email:</div>
-                  <a
-                    href={`mailto:${siteMeta.contact.email}`}
-                    className="text-sky-300 hover:underline break-all"
-                  >
-                    {siteMeta.contact.email}
-                  </a>
+                  <div className="flex flex-col gap-1 font-mono text-xs">
+                    <a
+                      href="mailto:mail@tni2tri.org"
+                      className="text-sky-300 hover:underline break-all"
+                    >
+                      mail@tni2tri.org
+                    </a>
+                    <a
+                      href="mailto:info@tni2tri.org"
+                      className="text-sky-300 hover:underline break-all"
+                    >
+                      info@tni2tri.org
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="flex items-start gap-2.5">

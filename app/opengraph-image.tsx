@@ -1,6 +1,5 @@
 import { ImageResponse } from 'next/og';
 
-export const runtime = 'edge';
 export const alt = 'TNI²TRI 2026 — Tamil Nadu Industrial Intelligence & Transformation Readiness';
 export const size = {
   width: 1200,
@@ -59,6 +58,8 @@ export default async function Image() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
           <div
             style={{
+              display: 'flex',
+              alignItems: 'center',
               fontSize: '64px',
               fontWeight: 900,
               letterSpacing: '-1px',
@@ -66,7 +67,8 @@ export default async function Image() {
               lineHeight: 1.1,
             }}
           >
-            TNI²TRI <span style={{ color: '#f59e0b' }}>2026</span>
+            <span>TNI²TRI&nbsp;</span>
+            <span style={{ color: '#f59e0b' }}>2026</span>
           </div>
           <div
             style={{

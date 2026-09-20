@@ -51,7 +51,7 @@ export function GlobalOrganizationSchema() {
         '@type': 'ContactPoint',
         telephone: '+91-9952996930',
         contactType: 'secretariat inquiries and enterprise onboarding',
-        email: 'tni2tri2026@gmail.com',
+        email: 'mail@tni2tri.org',
         availableLanguage: ['English', 'Tamil'],
         hoursAvailable: {
           '@type': 'OpeningHoursSpecification',
@@ -64,7 +64,7 @@ export function GlobalOrganizationSchema() {
         '@type': 'ContactPoint',
         telephone: '+91-8248759056',
         contactType: 'technical coordination and assessment support',
-        email: 'tni2tri2026@gmail.com',
+        email: 'info@tni2tri.org',
         availableLanguage: ['English', 'Tamil'],
       },
     ],
