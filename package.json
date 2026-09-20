@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "export": "NODE_ENV=production NEXT_EXPORT=true next build",
-    "build:static": "NODE_ENV=production NEXT_EXPORT=true next build",
+    "build": "cross-env NODE_ENV=production next build",
+    "export": "cross-env NODE_ENV=production NEXT_EXPORT=true next build",
+    "build:static": "cross-env NODE_ENV=production NEXT_EXPORT=true next build",
     "start": "next start",
     "lint": "eslint .",
     "clean": "next clean"
@@ -31,6 +31,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cross-env": "^10.1.0",
     "eslint": "9.39.1",
     "eslint-config-next": "16.0.8",
     "firebase-tools": "^15.0.0",
