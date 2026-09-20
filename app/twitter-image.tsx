@@ -1,5 +1,6 @@
 import { ImageResponse } from 'next/og';
 
+export const dynamic = 'force-static';
 export const alt = 'TNI²TRI 2026 — Industrial Intelligence & Transformation Readiness';
 export const size = {
   width: 1200,
