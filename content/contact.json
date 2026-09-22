@@ -10,9 +10,11 @@
   "contactDetails": {
     "email": "mail@tni2tri.org",
     "secondaryEmail": "info@tni2tri.org",
+    "ccEmail": "admin@mjtechsolutions.in",
     "emails": [
       "mail@tni2tri.org",
-      "info@tni2tri.org"
+      "info@tni2tri.org",
+      "admin@mjtechsolutions.in"
     ],
     "phone": "+91 9952996930 / 8248759056",
     "primaryPhone": "+91 9952996930",

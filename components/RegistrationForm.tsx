@@ -179,6 +179,40 @@ export function RegistrationForm() {
 
         {/* Action Buttons */}
         <div className="flex flex-wrap items-center justify-center gap-4">
+          <a
+            href={`mailto:mail@tni2tri.org?cc=info@tni2tri.org,admin@mjtechsolutions.in&subject=${encodeURIComponent(`TNI²TRI 2026 Enterprise Registration Dossier: ${formData.orgName} [${regId}]`)}&body=${encodeURIComponent([
+              'TNI²TRI 2026 ENTERPRISE REGISTRATION DOSSIER',
+              '======================================================',
+              `Registration ID:    ${regId}`,
+              `Organisation:       ${formData.orgName}`,
+              `Industry Sector:    ${formData.industrySector}`,
+              `Location:           ${formData.location}`,
+              `Organisation Type:  ${formData.orgType}`,
+              `Years in Operation: ${formData.yearsInOperation || 'N/A'}`,
+              `Scale / Size:       ${formData.orgSize}`,
+              `Annual Turnover:    ${formData.annualTurnover}`,
+              `Primary Products:   ${formData.primaryProducts}`,
+              '------------------------------------------------------',
+              'PRIMARY LEADERSHIP CONTACT:',
+              `Name:               ${formData.contactName}`,
+              `Designation:        ${formData.contactDesignation}`,
+              `Email:              ${formData.contactEmail}`,
+              `Phone:              ${formData.contactPhone}`,
+              '------------------------------------------------------',
+              'TRANSFORMATION CONTEXTS:',
+              formData.transformationContexts.join(', '),
+              '',
+              'PRIMARY STRATEGIC QUESTION:',
+              formData.primaryQuestion || 'None specified',
+              '======================================================',
+              'Transmitted via TNI²TRI 2026 Industrial Intelligence Portal',
+            ].join('\n'))}`}
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-blue-600 text-blue-900 bg-blue-50 hover:bg-blue-100 text-xs font-bold transition-all"
+          >
+            <Send className="w-4 h-4 text-blue-700" />
+            <span>Email Dossier to Secretariat</span>
+          </a>
+
           <button
             onClick={() => window.print()}
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-slate-300 text-slate-700 bg-white hover:bg-slate-50 text-xs font-bold transition-all"

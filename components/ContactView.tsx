@@ -36,7 +36,7 @@ export function ContactView() {
     setLoading(true);
 
     const primaryRecipient = 'mail@tni2tri.org';
-    const secondaryRecipient = 'info@tni2tri.org';
+    const ccRecipients = 'info@tni2tri.org,admin@mjtechsolutions.in';
     const subject = `TNI²TRI 2026 Executive Inquiry: ${formData.name} — ${formData.org} [${formData.inquiryType}]`;
     const body = [
       'TNI²TRI 2026 EXECUTIVE INQUIRY & COORDINATION DOSSIER',
@@ -55,7 +55,7 @@ export function ContactView() {
       'Transmitted via TNI²TRI 2026 Industrial Intelligence Portal',
     ].join('\n');
 
-    const mailtoUrl = `mailto:${primaryRecipient}?cc=${secondaryRecipient}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoUrl = `mailto:${primaryRecipient}?cc=${ccRecipients}&subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     // Trigger email client with pre-filled content
     if (typeof window !== 'undefined') {
@@ -114,16 +114,16 @@ export function ContactView() {
                 </div>
                 <h3 className="text-xl font-bold text-emerald-950">Inquiry Prepared & Email Client Opened</h3>
                 <p className="text-xs sm:text-sm text-emerald-800 max-w-md leading-relaxed">
-                  Thank you, <strong>{formData.name}</strong>. Your default email client has been launched with a pre-filled executive dispatch addressed directly to <strong className="font-mono text-emerald-950">mail@tni2tri.org</strong> and <strong className="font-mono text-emerald-950">info@tni2tri.org</strong>.
+                  Thank you, <strong>{formData.name}</strong>. Your default email client has been launched with a pre-filled executive dispatch addressed directly to <strong className="font-mono text-emerald-950">mail@tni2tri.org</strong> and CC&apos;d to <strong className="font-mono text-emerald-950">info@tni2tri.org</strong> and <strong className="font-mono text-emerald-950">admin@mjtechsolutions.in</strong>.
                 </p>
                 <div className="p-3 bg-white/80 rounded-lg border border-emerald-200 text-[11px] text-slate-700 max-w-md w-full text-left font-mono">
                   <div><strong>To:</strong> mail@tni2tri.org</div>
-                  <div><strong>Cc:</strong> info@tni2tri.org</div>
+                  <div><strong>Cc:</strong> info@tni2tri.org, admin@mjtechsolutions.in</div>
                   <div className="truncate"><strong>Subject:</strong> TNI²TRI 2026 Executive Inquiry: {formData.name} — {formData.org}</div>
                 </div>
                 <div className="flex flex-wrap gap-2 pt-2">
                   <a
-                    href={`mailto:mail@tni2tri.org?cc=info@tni2tri.org&subject=${encodeURIComponent(`TNI²TRI 2026 Executive Inquiry: ${formData.name} — ${formData.org} [${formData.inquiryType}]`)}&body=${encodeURIComponent([
+                    href={`mailto:mail@tni2tri.org?cc=info@tni2tri.org,admin@mjtechsolutions.in&subject=${encodeURIComponent(`TNI²TRI 2026 Executive Inquiry: ${formData.name} — ${formData.org} [${formData.inquiryType}]`)}&body=${encodeURIComponent([
                       'TNI²TRI 2026 EXECUTIVE INQUIRY & COORDINATION DOSSIER',
                       '======================================================',
                       `Full Name:          ${formData.name}`,

@@ -1,6 +1,12 @@
 import type {NextConfig} from 'next';
 
-const isStaticExport = process.env.NEXT_EXPORT === 'true';
+const isStaticExport =
+  process.env.NEXT_EXPORT === 'true' ||
+  process.env.STATIC_EXPORT === 'true' ||
+  process.env.npm_lifecycle_event === 'export' ||
+  process.env.npm_lifecycle_event === 'static-export' ||
+  process.env.npm_lifecycle_event === 'build:static' ||
+  process.env.npm_lifecycle_event === 'build:export';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
