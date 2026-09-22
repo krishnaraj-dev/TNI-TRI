@@ -10,6 +10,11 @@ const isStaticExport =
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  productionBrowserSourceMaps: false,
+  poweredByHeader: false,
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production' ? { exclude: ['error'] } : false,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -32,6 +37,10 @@ const nextConfig: NextConfig = {
   trailingSlash: isStaticExport ? true : undefined,
   transpilePackages: ['motion'],
   webpack: (config, {dev}) => {
+    // Disable source maps completely in production/export builds
+    if (!dev) {
+      config.devtool = false;
+    }
     // HMR is disabled in AI Studio via DISABLE_HMR env var.
     // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
     if (dev && process.env.DISABLE_HMR === 'true') {
